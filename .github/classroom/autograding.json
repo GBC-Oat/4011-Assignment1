@@ -2,7 +2,6 @@
   "tests": [
     {
       "name": "numeric_derivation_test.py",
-      "setup": "sudo -H pip3 install pytest",
       "run": "pytest numeric_derivation_test.py",
       "input": "",
       "output": "",
@@ -12,7 +11,6 @@
     },
     {
       "name": "rmse_test.py",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest rmse_test.py",
       "input": "",
       "output": "",
@@ -22,7 +20,6 @@
     },
     {
       "name": "tensor_multiplication_test.py",
-      "setup": "sudo -H pip3 install pytest numpy torch",
       "run": "pytest tensor_multiplication_test.py",
       "input": "",
       "output": "",
@@ -32,7 +29,6 @@
     },
     {
       "name": "regression.py",
-      "setup": "sudo -H pip3 install pytest torch",
       "run": "pytest",
       "input": "",
       "output": "",
