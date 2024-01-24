@@ -32,8 +32,8 @@ def fit_regression_model(X, y):
     """
     learning_rate = 0.01 # Adjust the learning rate
     num_epochs = 1000 # Adjust the number of epochs
-    input_features = X.shape[] # extract the number of features from the input `shape` of X
-    output_features = y.shape[] # extract the number of features from the output `shape` of y
+    input_features = X.shape[2] # extract the number of features from the input `shape` of X
+    output_features = y.shape[2] # extract the number of features from the output `shape` of y
     model = create_linear_regression_model(input_features, output_features)
     
     loss_fn = nn.L1Loss() # Use mean squared error loss, like in class
